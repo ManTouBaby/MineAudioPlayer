@@ -10,7 +10,6 @@
         android:padding="3dp"
         android:scaleType="fitXY"
         android:layout_alignParentRight="true"
-        android:background="#456"
         android:src="@drawable/seach_btn_pause" />
 
 </RelativeLayout>
