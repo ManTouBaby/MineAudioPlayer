@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
-        app:showModel="PLAY_ONLY"></com.hrw.audiolibrary.AudioPlayView>
+        app:showModel="PLAY_SEEK_BAR"></com.hrw.audiolibrary.AudioPlayView>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/show_music"

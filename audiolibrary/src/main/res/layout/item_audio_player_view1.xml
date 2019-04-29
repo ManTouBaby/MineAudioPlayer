@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_marginRight="10dp"
         android:layout_toLeftOf="@+id/iv_music_pause"
-        android:text="10:20"
+        android:text="00:00"
         android:layout_marginTop="3dp"
         android:textColor="#ffffff" />
 
