@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="60dp"
+    android:layout_height="60dp">
+
+    <ImageView
+        android:id="@+id/iv_music_pause"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="3dp"
+        android:scaleType="fitXY"
+        android:layout_alignParentRight="true"
+        android:background="#456"
+        android:src="@drawable/seach_btn_pause" />
+
+</RelativeLayout>

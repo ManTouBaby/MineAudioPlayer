@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/touxiang3" />
+
+    <com.hrw.audiolibrary.AudioPlayView
+        android:id="@+id/apv_play_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:showModel="PLAY_ONLY"></com.hrw.audiolibrary.AudioPlayView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/show_music"
+        app:layout_constraintTop_toBottomOf="@+id/apv_play_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+</android.support.constraint.ConstraintLayout>

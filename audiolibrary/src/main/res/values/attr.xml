@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AudioPlayView">
+        <attr name="showModel">
+            <enum name="All" value="0"></enum>
+            <enum name="PLAY_SEEK_BAR" value="1"></enum>
+            <enum name="PLAY_ONLY" value="2"></enum>
+        </attr>
+    </declare-styleable>
+</resources>
